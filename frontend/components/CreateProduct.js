@@ -4,7 +4,7 @@ import { useMutation } from "@apollo/client";
 import DisplayError from "./ErrorMessage";
 import useForm from "../lib/useForm";
 import Form from "./styles/Form";
-import { ALL_PRODUCTS_QUERY } from "../pages/products";
+import { ALL_PRODUCTS_QUERY } from "./Products";
 
 const CREATE_PRODUCT_MUTATION = gql`
   mutation CREATE_PRODUCT_MUTATION(
