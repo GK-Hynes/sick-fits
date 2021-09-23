@@ -35,7 +35,7 @@ function createClient({ headers, initialState }) {
       typePolicies: {
         Query: {
           fields: {
-            // TODO: We will add this together!
+            // Cache invalidation is hard
             allProducts: paginationField()
           }
         }
