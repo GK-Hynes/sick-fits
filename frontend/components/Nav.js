@@ -3,7 +3,7 @@ import NavStyles from "./styles/NavStyles";
 import { useUser } from "./User";
 
 export default function Nav() {
-  const { user } = useUser();
+  const user = useUser();
   return (
     <NavStyles>
       <Link href="/products">Products</Link>
